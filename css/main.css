@@ -83,6 +83,7 @@ body.openMenu .MenuBtn i:first-child{transform:translateY(2px) translateX(0) rot
 body.openMenu .MenuBtn i:nth-child(2){opacity:0;background:#50b167}
 body.openMenu .MenuBtn i:nth-child(3){transform:translateY(-2px) translateX(0) rotate(-45deg);background:#50b167}
 @media(max-width:767px){
+.adsCont{min-height:250px;}
 .gutterLHS,.gutterRHS{display:none}
 .main_header{position:fixed;top:0;z-index:9;width:100%}
 .container-fluid{margin-top:108px}
