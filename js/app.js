@@ -3,6 +3,14 @@ $(document).ready(function () {
         $("#headerSearch").fadeToggle();
         $("#headerSearchMob").fadeToggle();
     });
+    $("#notify").click(function (a) {
+        a.stopPropagation();
+        $(".notificationNews").slideToggle();
+        $("#notiCount").hide();
+        $("body").click(function (b) {
+           $(".notificationNews").slideUp()
+        })
+    });
     $("#toggleNav").click(function () {
         $("#megaMenu").slideToggle("slow", function () {
             if ($("#megaMenu").is(":visible")) {
