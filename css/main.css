@@ -161,7 +161,6 @@ to{transform:scale(3);opacity:0}
 .liveBlog ul li{padding-left:10px;position:relative;padding-bottom:15px;margin-bottom:15px;border-bottom:1px solid #d9d9d9}
 .liveBlog ul li:last-child{border-bottom:0}
 .liveBlog ul li::after{content:'';width:10px;height:10px;position:absolute;top:6px;left:-16px;border-radius:10px;background:#dc0000;box-sizing:border-box}
-.liveBlog ul li p{margin-bottom:0;margin-top:10px;line-height:1.5}
 .liveBlog .timestamp span{font-family:sans-serif;color:#d70101;font-size:14px;line-height:20px;font-weight:700}
 a.moreNews{display: inline-flex;align-items: center;}
 .error_page img{width:100%;display: block;}
